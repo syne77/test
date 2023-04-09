@@ -1,14 +1,14 @@
+import 'package:androidstudio2023/home_main.dart';
 import 'package:androidstudio2023/login_platform.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 
-import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:http/http.dart' as http;
 import 'package:google_sign_in/google_sign_in.dart';
 
 
 void main() {
-  runApp(MyApp());
+  runApp(MainHome());
 }
 
 class MyApp extends StatelessWidget {
